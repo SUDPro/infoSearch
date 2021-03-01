@@ -9,13 +9,13 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class WebCrawler {
-    private final File index = new File("src/main/resources/index.txt");
-    private final File fileSites = new File("src/main/resources/sites.txt");
+    private final File index = new File("resources/index.txt");
+    private final File fileSites = new File("resources/sites.txt");
 
     private void getPageLinks() {
         try {
             Scanner scanner = new Scanner(fileSites);
-            String path = "src/main/resources/files/";
+            String path = "resources/files/";
             int i = 0;
             while (scanner.hasNextLine()) {
                 String url = scanner.nextLine();

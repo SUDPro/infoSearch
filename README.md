@@ -27,6 +27,6 @@
     
 3. Результат
     
-    Файл _index.txt_ лежит в папке _infoSearch\src\main\resources_
+    Файл _index.txt_ лежит в папке _infoSearch\target\resources_
     
-    Скачанные страницы лежат в папке _infoSearch\src\main\resources\files_
+    Скачанные страницы лежат в папке _infoSearch\target\resources\files_
